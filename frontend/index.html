@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Todo List</h1>
+
+    <input
+        type="text"
+        id="title"
+        placeholder="Enter Task Title"
+    >
+
+    <br><br>
+
+    <input
+        type="text"
+        id="description"
+        placeholder="Enter Task Description"
+    >
+
+    <br><br>
+
+    <button onclick="createTask()">
+        Add Task
+    </button>
+
+    <hr>
+
+    <div id="tasks">
+
+        <!-- Tasks will be displayed here -->
+
+        <!-- Example Task -->
+
+        <!--
+        <div class="task">
+
+            <div onclick="completeTask('TASK_ID')">
+
+                <h3 class="completed">Learn Express</h3>
+
+                <p>Build Todo App</p>
+
+            </div>
+
+            <button
+                class="delete-btn"
+                onclick="deleteTask('TASK_ID')">
+                Delete
+            </button>
+
+        </div>
+        -->
+
+    </div>
+
+    <button onclick="logout()">Logout</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
